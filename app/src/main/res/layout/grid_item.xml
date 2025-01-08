@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/white"
+    android:gravity="center">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+>
+
+     <ImageView
+         android:id="@+id/grid_image"
+         android:layout_width="match_parent"
+         android:layout_height="150dp"
+         android:background="@drawable/rounded_image"
+         android:src="@drawable/bell_ring"
+
+         android:scaleType="fitXY" />
+
+     <TextView
+         android:id="@+id/product_name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+
+         android:text="Nike sb Danks"
+
+         android:textColor="@color/Gray"
+         android:layout_marginTop="10dp"
+         android:layout_below="@id/grid_image"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/product_price"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+         android:text="Ksh 20,000"
+         android:textColor="@color/black"
+         android:layout_below="@id/product_name"
+         android:textAlignment="textStart"
+
+
+         android:textStyle="bold" />
+ </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DetailedProductActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/lightGray"
+        android:id="@+id/selected_image"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nike Air Force Ones"
+        android:layout_below="@+id/selected_image"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/selected_title"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="8dp"/>
+
+    <TextView
+        android:id="@+id/selected_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selected_title"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/lorem"
+        android:textColor="@color/Gray" />
+
+    <TextView
+        android:id="@+id/price_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selected_description"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="9dp"
+        android:paddingHorizontal="20dp"
+
+        android:text="Total Price "
+        android:textColor="@color/Gray" />
+
+    <TextView
+        android:id="@+id/selected_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/price_tag"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="-56dp"
+        android:layout_toStartOf="@+id/button"
+        android:paddingStart="20dp"
+        android:text="Ksh 6000"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/price_tag"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:onClick="redirectToPay"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="@color/lightRed"
+        android:drawableLeft="@drawable/shopping_cart"
+        android:text="@string/purchase"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/go_back"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/selected_price"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="-132dp"
+        android:backgroundTint="@color/lightRed"
+
+        android:drawableLeft="@drawable/arrow_left"
+        android:text="back"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

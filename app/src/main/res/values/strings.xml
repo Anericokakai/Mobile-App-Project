@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Ecommerce_application_group</string>
+    <string name="register">Create Account</string>
+    <string name="register_description">Fill your information below or register with your social account</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Agree_with_terms">Agree with </string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="have_account">Already Have an Account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">sign In</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="sign_in_header">Sign In</string>
+    <string name="welcome_back">Hi! Welcome back, you have been missed</string>
+    <string name="dont_have_an_account">Dont have an account ?</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="cool_cicks">Cool Cicks</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="please_enter_the_code_sent_to_email">please enter the code sent to email</string>
+    <string name="anericomisiko_gmail_com">anericomisiko@gmail.com</string>
+    <string name="din_t_receive_otp">Din\'t receive OTP ?</string>
+    <string name="dash">-</string>
+    <string name="verify">Verify</string>
+    <string name="password_resetMessage">Your new Password must be different from the previous passwords</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="create_new_password">create new password</string>
+    <string name="request_code_string">Enter your email address to request for verification code</string>
+    <string name="request_code">Request Code</string>
+    <string name="lorem">match the JSON keys returned by the API. Retrofit uses the field names in your model class by default to map the JSON keys unless otherwise specified</string>
+    <string name="pay_with_m_pesa">Pay With M-Pesa</string>
+    <string name="go_back">go Back</string>
+    <string name="not_buying_anything">Not buying Anything</string>
+    <string name="_254792626899">+254792626899</string>
+    <string name="purchase">Purchase</string>
+
+</resources>
