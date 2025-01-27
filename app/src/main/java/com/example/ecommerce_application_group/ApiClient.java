@@ -29,7 +29,7 @@ public class ApiClient {
         OkHttpClient okHttpClient = new OkHttpClient().newBuilder().addInterceptor(httpLoggingInterceptor).build();
 
         return new Retrofit.Builder()
-                .baseUrl("https://6401-105-161-43-251.ngrok-free.app/api/")  // Payment API base URL
+                .baseUrl("https://e1de-2c0f-fe38-2011-c35b-c7f0-9b40-6f15-7242.ngrok-free.app/api/")  // Payment API base URL
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(okHttpClient)
                 .build();
